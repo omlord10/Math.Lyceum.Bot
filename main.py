@@ -10,7 +10,7 @@ import os
 conn = sqlite3.connect('users.db',check_same_thread=False)
 cursor = conn.cursor()
 
-bot = telebot.TeleBot('6162594346:AAHXFViSO6Ulc08ipLbamyVjBMoV_bybg2w')
+bot = telebot.TeleBot('TOKEN')
 
 import xlrd
 import os
